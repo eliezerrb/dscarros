@@ -1,0 +1,20 @@
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.btn-container button {
+  background-color: #00285f;
+  height: 40px;
+  width: 100%;
+}
+
+.btn h6 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0;
+}

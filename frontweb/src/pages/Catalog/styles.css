@@ -1,0 +1,42 @@
+.catalog-container {
+  align-items: center;
+  padding: 10px;
+}
+
+.container-card {
+  display: flex;
+  align-items: center;
+  height: 86px;
+  margin-bottom: 20px;
+  padding: 0 12px;
+  width: 100%;
+}
+
+/*Para a responsividade comportamento diferenciado a partir de um breakpoint*/
+@media (min-width: 576px) {
+  .catalog-container {
+    padding: 20px;
+  }
+
+  .container-card {
+    height: 123px;
+  }
+
+  .container-card button {
+    width: 174px;
+  }
+}
+
+/*Para a responsividade comportamento diferenciado a partir de um breakpoint*/
+@media (min-width: 992px) {
+  .container-card input {
+    width: 584px;
+  }
+}
+
+/*Para a responsividade comportamento diferenciado a partir de um breakpoint*/
+@media (min-width: 1200px) {
+  .catalog-container {
+    padding: 30px 150px;
+  }
+}
